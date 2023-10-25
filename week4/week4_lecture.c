@@ -31,8 +31,11 @@ int main(void) {
     goto back;
     end: printf("i is now %d\n", i);
 
+
+    // if a case is met, all cases underneath will run (even if they dont match the case rule). You may need to add a break statement
     switch (i) {
         case 2: printf("2");
+        case 4: printf("4");
         default: printf("none");
     }
 
