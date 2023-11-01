@@ -138,5 +138,10 @@ int main(void) {
     // MANIPULATING CHARACTER STRINGS
     // character strings are sometimes written with char* instead of char[]
 
+
+    // strlen(const char* string) // returns length of the scring (excluding string terminator)
+    // strcpy(const char* dest, const char* source) // copies source string to dest string (DEST MUST BE AT LEAST AS BIG AS SOURCE)
+    // strcmp(const char* str1, const char* str2) // compares strings, 0 if equal, positive if str1 is larger, negative if str2 is larger.
+
     return 0;
 }
