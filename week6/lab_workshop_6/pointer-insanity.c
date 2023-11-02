@@ -13,6 +13,6 @@ int main(void)
     // its address is the location of the string in the computer 
 	printf("sp has the address %p, the size %d and states \"%s\"\n",&sp,(int)sizeof(sp),sp);
     // it has size 8 because thats the size of the address (its 8 characters long)
-    // This is the location of the string stored in memory. It's address is the value of the location of the string address in the computer
+    // This is the location of the string stored in memory. It's content is the value of the location of the string address in the computer
     return 0;
 }

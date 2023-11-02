@@ -39,6 +39,8 @@ int main(void)
 	scanf("%d",&shift);
 	fflush(stdin);
 
+	shift=shift%26;
+
 	/*
 	   add code to cycle through the original message string (array) that shifts the 
 	   printable letters according to the shift value entered (by passing them to the 
